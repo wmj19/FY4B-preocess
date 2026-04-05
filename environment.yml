@@ -1,0 +1,9 @@
+name: fy4b-satpy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - satpy
+  - h5py
+  - matplotlib
+  - pytest

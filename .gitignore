@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling cache
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+
+# Conda package cache
+.conda-pkgs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Sample and generated data
+sample/*
+!sample/.gitkeep
+output/*
+!output/.gitkeep
+*.npz
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
